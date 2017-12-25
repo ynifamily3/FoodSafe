@@ -3,10 +3,7 @@
   "version": "0.1.1",
   "description": "Show Food Information based on barcode or Product Name.",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ynifamily3/FoodSafe.git"
-  },
+  "repository": "git+https://github.com/ynifamily3/FoodSafe.git",
   "scripts": {
     "test": "mocha"
   },
@@ -14,5 +11,8 @@
     "food"
   ],
   "author": "Jongkeun Choi<jongkeun.ch@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.5.13"
+  }
 }
